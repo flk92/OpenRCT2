@@ -4021,6 +4021,7 @@ STR_5716    :Not allowed in multiplayer mode
 # For identifying client network version in server list window
 STR_5717    :Network version: {STRING}
 STR_5718    :{SMALLFONT}{BLACK}Network version: {STRING}
+STR_5719    :Bilinear filtering
 
 #############
 # Scenarios #

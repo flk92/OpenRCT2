@@ -4018,6 +4018,7 @@ STR_5713    :Expulsar Jogador
 STR_5714    :Mostrar janela de opções
 STR_5715    :Novo Jogo
 STR_5716    :Não é permitido no modo multijogador
+STR_5719    :Filtro bilinear
 
 #############
 # Scenarios #

@@ -183,6 +183,7 @@ typedef struct {
 	uint8 scenario_select_mode;
 	uint8 scenario_unlocking_enabled;
 	uint8 scenario_hide_mega_park;
+	uint8 scale_bilinear;
 } general_configuration;
 
 typedef struct {

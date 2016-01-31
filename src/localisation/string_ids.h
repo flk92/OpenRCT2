@@ -2313,6 +2313,8 @@ enum {
 	STR_NETWORK_VERSION = 5717,
 	STR_NETWORK_VERSION_TIP = 5718,
 
+	STR_SCALE_BILINEAR = 5719,
+
 	// Have to include resource strings (from scenarios and objects) for the time being now that language is partially working
 	STR_COUNT = 32768
 };

@@ -766,7 +766,7 @@ static void platform_create_window()
 		exit(-1);
 	}
 
-	SDL_SetHint(SDL_HINT_RENDER_SCALE_QUALITY, 0);
+	SDL_SetHint(SDL_HINT_RENDER_SCALE_QUALITY, gConfigGeneral.scale_bilinear ? "1" : "0");
 	SDL_SetHint(SDL_HINT_VIDEO_MINIMIZE_ON_FOCUS_LOSS, gConfigGeneral.minimize_fullscreen_focus_loss ? "1" : "0");
 
 	platform_load_cursors();
@@ -971,6 +971,7 @@ void platform_refresh_video()
 	int width = RCT2_GLOBAL(RCT2_ADDRESS_SCREEN_WIDTH, uint16);
 	int height = RCT2_GLOBAL(RCT2_ADDRESS_SCREEN_HEIGHT, uint16);
 
+	SDL_SetHint(SDL_HINT_RENDER_SCALE_QUALITY, gConfigGeneral.scale_bilinear ? "1" : "0");
 	SDL_SetHint(SDL_HINT_VIDEO_MINIMIZE_ON_FOCUS_LOSS, gConfigGeneral.minimize_fullscreen_focus_loss ? "1" : "0");
 
 	log_verbose("HardwareDisplay: %s", gHardwareDisplay ? "true" : "false");
