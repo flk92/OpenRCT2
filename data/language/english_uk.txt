@@ -4028,6 +4028,7 @@ STR_5722    :{SMALLFONT}{BLACK}Requires hardware display option
 STR_5723    :Nearest neighbour
 STR_5724    :Linear
 STR_5725    :Anisotropic
+STR_5726    :Use NN scaling at integer scales
 
 #############
 # Scenarios #
