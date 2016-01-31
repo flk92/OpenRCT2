@@ -4022,6 +4022,17 @@ STR_5716    :Not allowed in multiplayer mode
 STR_5717    :Network version: {STRING}
 STR_5718    :{SMALLFONT}{BLACK}Network version: {STRING}
 
+STR_5720    :Scaling quality
+STR_5721    :Requires hardware display option
+STR_5722    :{SMALLFONT}{BLACK}Requires hardware display option
+STR_5723    :Nearest neighbour
+STR_5724    :Linear
+STR_5725    :Anisotropic
+STR_5726    :Use NN scaling at integer scales
+
+# tooltip for tab in options window
+STR_5727    :{SMALLFONT}{BLACK}Rendering
+
 #############
 # Scenarios #
 ################
